@@ -1,0 +1,51 @@
+/* client/src/components/Home/DealsSection.css */
+
+.deals-section {
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+.deals-section h2 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.deals-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.deal-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 180px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.deal-card:hover {
+  transform: translateY(-5px);
+}
+
+.deal-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.deal-card h3 {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.deal-card p {
+  font-weight: bold;
+  color: #e47911;
+  margin: 0;
+}

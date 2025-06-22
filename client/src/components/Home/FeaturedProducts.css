@@ -1,0 +1,49 @@
+.featured-section {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.featured-section h2 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.featured-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.featured-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.featured-card:hover {
+  transform: translateY(-5px);
+}
+
+.featured-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.featured-card h3 {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.featured-card p {
+  font-weight: bold;
+  color: #e47911;
+  margin: 0;
+}
